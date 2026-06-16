@@ -1,0 +1,90 @@
+1.       
+Scenario: A shipping warehouse needs to
+load delivery containers onto a cargo truck. The truck can carry exactly a
+target weight W in a single trip using exactly two containers. Find if
+there is a pair of containers whose weights add up exactly to W.
+
+
+
+Input:
+container weights [20, 50, 45, 10, 35, 90], Target Weight W = 85
+
+
+
+ 
+
+
+
+2.    
+Scenario: A digital wallet app tracks a
+merchant's daily transactions. The merchant wants to know on which exact day
+they crossed their business milestone target of Rs. 3000 total revenue accumulated from Day 1.
+
+
+
+Input: Daily earnings
+array [1200, 500, 2000, 800, 3000]
+
+
+
+3.    
+Scenario: A credit card system triggers an
+automated fraud alert if a customer makes more than 3 distinct transactions
+within any single 10-minute window. Write a quick algorithm to check if a
+timeline of transaction timestamps breaches this velocity threshold.
+
+
+
+       Input Transaction Timestamps (in
+minutes): [2, 5, 8, 11, 25, 28]
+
+
+
+4.    
+Scenario: In chat apps like WhatsApp, if a user
+sends a massive message, the chat UI doesn't show the whole text on the main
+screen. It truncates the string to a maximum number of characters (K) and appends ...Read More to the end. Write an
+algorithm to implement this text-clipping behavior.
+
+
+
+Input: message = "We are hosting an exclusive leadership
+roundtable this Saturday in Chennai", K = 25
+
+
+
+Output: "We are hosting an exclusi...Read More"
+
+
+
+5.    
+Scenario: A banking backend receives raw
+consolidated strings from point-of-sale (POS) swiping machines. The format is
+always TXN_ID:AMOUNT:STATUS
+(e.g., TXN10294:5500:SUCCESS).
+Write an algorithm to extract and return just the AMOUNT as an integer.
+
+
+
+Input: "TXN88392:12500:SUCCESS"
+
+
+
+Output: 12500 ( Integer type, not a string)
+
+
+
+6.    
+Scenario: For security reasons, fintech and
+e-commerce apps like Amazon or Paytm never display a user's full phone number
+on confirmation screens. They mask the middle digits. Given a 10-digit phone
+number string, mask the middle 6 digits with *
+and display only the first 2 and last 2 digits.
+
+
+
+Input: "9876543210"
+
+
+
+Output: "98******10"
